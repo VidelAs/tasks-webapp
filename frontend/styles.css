@@ -1,0 +1,81 @@
+/* Este css le da estilo a todos los h1 */
+h1 {
+    font-size: 28px;
+    text-align: center;
+}
+/* Este css le da estilo al id title del html */
+#title {
+    text-align: center;
+}
+/* Este css le da estilo al body */
+body {
+    background-color: var(--diabled);
+}
+/* Este css le da estilo a la clase list */
+.list {
+    margin: 25px auto;
+    padding: 25px;
+    background-color: var(--light);
+    width: 200%;
+    max-width: 500px;
+}
+/* Este css le da estilo a los divs y a al id box */
+div,
+#box {
+    margin: 40px auto;
+    padding: 25px;
+    background-color: #FEF5E7;
+    ;
+    width: auto;
+    max-width: 500px;
+
+}
+/* Este css le da estilo a la clase information */
+.information {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+/* Este css le da estilo al textarea */
+textarea {
+    height: 50px;
+    width: 100%;
+    resize: none;
+}
+
+/* Este css le da estilo a la clase orderButton*/
+.orderButton {
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+/* Este css le da estilo a la clase .addTaskButton*/
+.addTaskButton {
+    border: none;
+    border-radius: 50%;
+    font-size: 28px;
+    background-color: var(--diabled);
+    text-align: center;
+    display: block;
+    width: 50px;
+    height: 50px;
+}
+/* Este css le da estilo a la clase .roundBorder*/
+.roundBorder {
+    border-radius: 5px;
+}
+/* Este css le da estilo al form y al id box*/
+#box,
+form {
+    background-color: #FEF5E7;
+    border-radius: 30px 30px 30px 30px;
+}
+/* Este css le da color al textarea*/
+textarea {
+    background-color: #F8F9F9;
+}
+/* Este css le da estilo al id tasks*/
+#tasks{
+    border: #000 1px;
+    background-color: white;
+    width: 100%;
+    height: 100%;
+}

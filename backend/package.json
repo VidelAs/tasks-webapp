@@ -1,0 +1,34 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "Tasks backend",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jahcoto/tasks_node_mysql.git"
+  },
+  "keywords": [
+    "NODE",
+    "MYSQL"
+  ],
+  "author": "BAS DEV Team",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jahcoto/tasks_node_mysql/issues"
+  },
+  "homepage": "https://github.com/jahcoto/tasks_node_mysql#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "mysql": "^2.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
